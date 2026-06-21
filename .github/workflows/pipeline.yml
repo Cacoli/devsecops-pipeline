@@ -36,3 +36,8 @@ jobs:
           exit-code: "1"
           severity: "CRITICAL,HIGH"
           trivyignores: ".trivyignore"
+
+      - name: Scan for secrets with Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
