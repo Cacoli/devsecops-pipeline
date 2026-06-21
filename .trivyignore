@@ -1,0 +1,11 @@
+# OS-level CVEs in python:3.11-slim base image — no patched version available yet from Debian.
+# Re-evaluate when base image is updated. Not directly exploitable: app does not parse
+# tar archives, use ncurses/tinfo features, or invoke perl.
+CVE-2025-69720
+CVE-2026-11822
+CVE-2026-11824
+CVE-2026-42496
+CVE-2026-8376
+CVE-2026-42497
+CVE-2026-48962
+CVE-2026-9538
