@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, request
-AWS_ACCESS_KEY = "AKIAQWERTY123456ABCD"
 app = Flask(__name__)
 
 users = [
