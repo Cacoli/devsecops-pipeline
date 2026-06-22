@@ -64,5 +64,5 @@ jobs:
         if: always()
         run: |
           curl -H "Content-Type: application/json" \
-          -d "{\"content\": \"🔐 Pipeline run complete! ZAP DAST scan finished for commit ${{ github.sha }}\"}" \
+          -d "{\"content\": \"Pipeline run complete! ZAP DAST scan finished for commit ${{ github.sha }}\"}" \
           ${{ secrets.DISCORD_WEBHOOK_URL }}
