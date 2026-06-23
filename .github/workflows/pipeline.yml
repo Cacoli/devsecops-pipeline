@@ -9,8 +9,6 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
 
     steps:
       - name: Checkout code
